@@ -9,6 +9,7 @@ node {
         //sh 'npm run build'
         //sh 'rm -Rf /usr/share/nginx/html/*'
         //sh 'cp -R build/* /usr/share/nginx/html/'
+	sh 'ls'
         sh 'docker build -t react-app .'
       }
     }
